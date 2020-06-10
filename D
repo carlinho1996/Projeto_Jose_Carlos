@@ -1,7 +1,11 @@
 #include <iostream>
 using namespace std;
 
-
+void MD4(float D1, FLoat D2){
+	float k=0;
+	k=(D1+D2)/D1
+	cout << "Soma dos D1 e D2 Dividido por D1 ="<< k <<endl;
+}
 void MD1(float D1, float D2){
 	float k=0;
 	k=(D1/D2)*100;
@@ -20,5 +24,7 @@ int main(){
     float D2=3;
         MD1(D1,D2);
         MD2(D1,D2);
+	
+	MD4(D1,D2);
 return 0;
  }
