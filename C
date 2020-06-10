@@ -1,0 +1,30 @@
+ // ultima versao c
+
+#include <iostream>
+using namespace std;
+
+
+ void MC1(string C1, int C2){
+    cout<<"Numero ="<<C2<<" / string ="<< C1 <<endl;
+};
+
+
+ void MC2(string C1, int C2){
+	cout<<"string ="<< C1 <<"/  Numero ="<<C2<<endl;
+};
+
+
+ void MC3(string C1, int C2){
+	cout<<"Numero Junto Com String = "<<C1<<C2<<endl;
+};
+
+ int main(){
+string C1 = "Teste";
+int C2 =3 ;
+	MC1(C1,C2);
+	MC2(C1,C2);
+	MC3(C1,C2);
+return 0;
+ }
+
+

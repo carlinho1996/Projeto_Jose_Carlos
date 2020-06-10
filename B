@@ -1,0 +1,35 @@
+ // ultima versao B
+
+#include <iostream>
+using namespace std;
+
+
+void MB1(int B1, float B2){
+	float k=0;
+	k=B1*B2;
+	cout << "Multiplica= "<<k<<endl;
+};
+
+
+void MB3(int B1, float B2){
+	float k=0;
+	k=B1+B2;
+	cout << "Somar= "<<k<<endl;
+};
+
+void MB2(int B1, float B2){
+	float k=0;
+	k=B1/B2;
+	cout <<"Dividir= "<<k<<endl;
+};
+
+
+int main(){
+int B1=2; 
+float B2=3;
+	MB1(B1,B2);
+	MB2(B1,B2);
+	MB3(B1,B2);
+return 0;
+ }
+
