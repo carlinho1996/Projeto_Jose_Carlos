@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+
+void MB1(int B1, float B2){
+	float k=0;
+	k=B1*B2;
+	cout << "Multiplica= "<<k<<endl;
+};
+
+
+void MB2(int B1, float B2){
+	float k=0;
+	k=B1/B2;
+	cout <<"Dividir= "<<k<<endl;
+};
+
+
+int main(){
+int B1=2; 
+float B2=3;
+@ -21,3 +26,4 @@ float B2=3;
+   
+return 0;
+ }

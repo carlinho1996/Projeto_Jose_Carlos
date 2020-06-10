@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+
+void MA1(int A1, float A2){
+	float k=0;
+	k=A1+A2;
+	cout << "SOMAR="<<k<<endl;
+};
+
+
+
+void MA2(int A1, float A2){
+	float k=0;
+	k=A1-A2;
+	cout <<"Subtrair="<<k<<endl;
+};
+
+
+void MA3() {
+cout << "Alteração a classe A partir do clone"<< endl;
+
+}
+
+
+int main(){
+int A1=2; 
+float A2=3;
+@ -27,3 +32,4 @@ float A2=3;
+     MA3();
+return 0;
+ }
